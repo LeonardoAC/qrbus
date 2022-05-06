@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu-bar.css">
+    <link rel="stylesheet" href="css/input.css">
+    <script src="js/main.js" charset="utf-8"></script>
+    <title>QR Bus</title>
+  </head>
+  <body>
+    <div class="div-main">
+      <header>
+        <!-- Incluir menu topo aqui -->
+        <div id="barratopo-restrito"></div>
+	    </header>
+      <h2>Itinerário</h2>
+      <div class="div-coluna-esquerda" id="div-itinerario-coluna-esquerda">
+          <ul>
+            <li>
+          			<label for="" class="label-formulario-grande">Rua:</label>
+          	</li>
+          	<li>
+          			<label for="" class="label-formulario-grande">Altura:</label>
+          	</li>
+            <li>
+          			<label for="" class="label-formulario-grande">Observação:</label>
+          	</li>
+            <li>
+          			<label for="" class="label-formulario-grande">Coordenada:</label>
+          	</li>
+	          <li>
+		          <label class="label-formulario-grande">Ver no mapa</label>
+	          </li>
+            <li>
+              <label for="" class="label-formulario-grande">Horário:</label>
+            </li>
+          </ul>
+      </div>
+      <div class="div-coluna-direita" id="div-itinerario-coluna-direita">
+          <ul>
+            <li>
+              <label for="" id="lblRua" class="label-formulario-grande">Senador Padua Salles</label>
+            </li>
+            <li>
+              <label for="" id="lblAltura" class="label-formulario-grande">S/N</label>
+            </li>
+            <li>
+              <label for="" id="lblDescricao" class="label-formulario-grande">Casinha perto academia Vida.</label>
+            </li>
+            <li>
+              <label for="" id="lblCoordenada" class="label-formulario-medio">-22.103191960134314, -50.18936381753915</label>
+            </li>
+          	<li>
+          		<label id="lblGoogleMaps" class="label-formulario-grande"><a href="https://www.google.com/maps/place/22%C2%B006'11.5%22S+50%C2%B011'21.7%22W/@-22.103192,-50.1915525,17z/" target="_blank">Google maps</a></label>
+          	</li>
+          		<li>
+              <label for="" id="lblHorario" class="label-formulario-grande">
+                <input type="text" id="txtHorario" placeholder="hh:mm" maxlength="5">
+              </label>
+            </li>
+          </ul>
+          <div class="div-bottom-botoes-de-acao" id="div-bottom-botoes-de-acao">
+            <!-- A caixa de botoes fica dentro da div da coluna direita -->
+            <ul>
+            	<li>
+            			<input type="button" value="Salvar" id="btnSave" />
+                  <input type="button" value="Atualizar" id="btnUpdate" />
+                  <input type="button" value="Deletar" id="btnDelete" />
+            	</li>
+            </ul>
+          </div>
+      </div>
+
+      <script>
+    		  document.addEventListener("DOMContentLoaded", exibeMenuRestrito());
+    	</script>
+    <footer>
+    </footer>
+    </div>
+  </body>
+</html>

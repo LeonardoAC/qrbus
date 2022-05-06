@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu-bar.css">
+    <link rel="stylesheet" href="css/input.css">
+    <script src="js/main.js" charset="utf-8"></script>
+    <title>QR Bus</title>
+  </head>
+  <body>
+    <div class="div-main">
+      <header>
+        <!-- Incluir menu topo aqui -->
+        <div id="barratopo"></div>
+	    </header>
+	<h1>Login</h1>
+  	  <ul>
+        <li>&nbsp;</li>
+        <li>
+      			<input type="text" placeholder="Informe seu e-mail" maxlength="50" id="txtUser" />
+      	</li>
+      	<li>
+      			<input type="password" placeholder="Sua senha aqui" maxlength="30" id="txtPasswd" />
+      	</li>
+      	<li>
+      			<input type="button" value="Entrar" id="btnLogin" onclick="javascript:autenticacao();" />
+      	</li>
+	<li>
+		<a href="#" onclick="alert('User e senha: teste');">Esqueci a senha</a>
+	</li>
+      </ul>
+      <script>
+   		 document.addEventListener("DOMContentLoaded", exibeMenu);
+    	</script>
+    <footer>
+        <span id="siteseal"></span>
+    </footer>
+    </div>
+  </body>
+</html>

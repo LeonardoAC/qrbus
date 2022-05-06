@@ -1,0 +1,50 @@
+/*
+Leonardo A Carrilho
+Novembro de 2021
+CSS para as tags input
+*/
+
+input{
+	border: solid 2px #f8f8f9;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	font-size: 40px;
+	border-radius:25px;
+	background: transparent;
+	color: #f8f8f9;
+}
+
+::placeholder{
+	color: #CFDBC5;
+	font-size:18px;
+}
+
+::-ms-input-placeholder{
+	/* Edge */
+	color: #CFDBC5;
+	font-size:18px;
+}
+
+input[id="btnBusca"]{
+	background-color: #fd6f1c;
+	border-radius: 0px 25px 25px 0px;
+}
+
+input[id="txtBusca"]{
+	border-radius: 25px 0px 0px 25px;
+}
+
+input[id="btnDelete"]{
+	background-color: #c50157;
+}
+
+input[id="btnSave"]{
+	background-color: #86dc3d;
+}
+
+input[type=button]{
+padding-left:20px;
+padding-right:20px;
+}

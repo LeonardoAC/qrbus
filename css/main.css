@@ -1,0 +1,214 @@
+/*
+Leonardo A Carrilho
+2021
+CSS geral para todas as paginas do site
+*/
+
+html, body {
+  /*height: 100%;*/
+  font-family: tahoma, verdana;
+}
+
+body{
+  background-color: #28231d;
+}
+
+.div-main {
+  /* Reset */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Area da cobertura */
+  height: 500%;
+  width: 100%;
+  /* Gradiente */
+  background: #EB7DFA;
+  background: -webkit-linear-gradient(bottom left, #EB7DFA 0%, #730F72 34%, #4CD4B9 100%);
+  background: -o-linear-gradient(bottom left, #EB7DFA 0%, #730F72 34%, #4CD4B9 100%);
+  background: linear-gradient(to top right, #EB7DFA 0%, #730F72 34%, #4CD4B9 100%);
+  /* Alinhamento dos objetos */
+  text-align: center;
+}
+
+.div-primeira-parte{
+  vertical-align: middle;
+}
+
+.div-segunda-parte{
+  vertical-align: middle;
+  /*background-color: #555;*/
+}
+
+.div-terceira-parte{
+  vertical-align: middle;
+  background-color: #f8f8f9;
+}
+
+.div-terceira-parte li{
+	color: black;
+	font-size: 30px;
+	vertical-align: middle;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.div-terceira-parte h3{
+	color: #4cd4b9;;
+}
+
+.div-busca-resultado{
+width: 70%;
+padding: 5px;
+text-align: justify;
+border: solid 1px #000;
+border-radius: 10px;
+background-color: #f6f6f8;
+margin-left: 17%;
+}
+
+.div-busca-resultado h3{
+font-size: 25px;
+color: #0000ff;
+text-shadow: none;
+}
+
+.div-busca-resultado h4{
+font-size: 18px;
+color: #000;
+text-shadow: none;
+}
+
+a:link,a:visited{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,a:active{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #4CD4B9;
+}
+
+ul,li{
+  list-style: none;
+  line-height: 1.25;
+  padding-bottom:20px;
+}
+
+.caixaVerdeYT{
+  display: block;
+  border: 3px solid #fff;
+  border-radius:15px;
+  width: 96%;
+  font-size: 60px;
+  color: #000;
+  background-color: #4CD4B9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div.caixaVerdeYT>ul>li{
+  width: 98%;
+}
+
+h1{
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h3{
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+h4{
+  font-size: 30px;
+  color: #CFDBC5;
+}
+
+h5{
+  font-size: 18px;
+  color: #CFDBC5;
+}
+
+img{
+  /**/
+}
+
+#fotoCircular{
+  width: 80px;
+	height: 80px;
+  border: solid 8px #4cd4b9;;
+  border-radius: 50px;
+}
+
+.label-formulario-grande{
+  font-size: 40px;
+  color: #f8f8f9;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.label-formulario-medio{
+  font-size: 25px;
+  color: #f8f8f9;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.div-coluna-esquerda{
+  /* O formulario Itinerario é dividido em 2 colunas paralelas */
+  position: absolute;
+  top: 250px;
+  width: 20%;
+  height: 450px;
+  /*border: solid 2px yellow;*/
+  text-align: right;
+  margin-left: 15%;
+}
+
+.div-coluna-direita{
+  /* O formulario Itinerario é dividido em 2 colunas paralelas */
+  position: absolute;
+  top: 250px;
+  width: 50%;
+  height: 450px;
+  /*border: solid 2px tomato;*/
+  text-align: left;
+  margin-left: 40%;
+}
+
+.div-bottom-botoes-de-acao{
+  /* Os botoes de acao devem ficar abaixo das 2 colunas */
+  position: relative;
+  width: 100%;
+  /*border: solid 2px pink;*/
+  text-align: left;
+}
+
+.div-botao-contiguo-input-busca{
+  /* O botao fica enconstado do campo de busca */
+  position: relative;
+  width: 140px;
+  text-align: left;
+}
+
+article{
+  font-size: 35px;
+  color: #f8f8f9;
+  line-height: 1.5;
+  text-align:justify;
+  margin-left: 5%;
+  margin-right:5%;
+}

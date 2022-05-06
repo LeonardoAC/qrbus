@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu-bar.css">
+    <link rel="stylesheet" href="css/input.css">
+    <script src="js/main.js" charset="utf-8"></script>
+    <title>QR Bus</title>
+  </head>
+  <body>
+    <div class="div-main">
+      <header>
+        <!-- Incluir menu topo aqui -->
+        <div id="barratopo"></div>
+	    </header>
+      <h2>Próximos ônibus:</h2>
+      <div class="div-coluna-esquerda" id="div-itinerario-coluna-esquerda">
+          <ul>
+            <li>
+          			<label for="" class="label-formulario-grande">Hora:</label>
+          	</li>
+          	<li>
+          			<label for="" class="label-formulario-grande">Linha:</label>
+          	</li>
+            <hr/>
+            <li>
+          			<label for="" class="label-formulario-grande">Hora:</label>
+          	</li>
+          	<li>
+          			<label for="" class="label-formulario-grande">Linha:</label>
+          	</li>
+            <hr/>
+            <li>
+          			<label for="" class="label-formulario-grande">Hora:</label>
+          	</li>
+          	<li>
+          			<label for="" class="label-formulario-grande">Linha:</label>
+          	</li>
+          </ul>
+      </div>
+      <div class="div-coluna-direita" id="div-itinerario-coluna-direita">
+          <ul>
+            <li>
+              <label for="" class="label-formulario-grande">11:45</label>
+            </li>
+            <li>
+              <label for="" class="label-formulario-grande">Jardim Primavera</label>
+            </li>
+            <hr/>
+            <li>
+              <label for="" class="label-formulario-grande">11:55</label>
+            </li>
+            <li>
+              <label for="" class="label-formulario-grande">Distrito Industrial</label>
+            </li>
+            <hr/>
+            <li>
+              <label for="" class="label-formulario-grande">12:10</label>
+            </li>
+            <li>
+              <label for="" class="label-formulario-grande">Flândria</label>
+            </li>
+          </ul>
+          <div class="div-bottom-botoes-de-acao" id="div-bottom-botoes-de-acao">
+            <!-- A caixa de botoes fica dentro da div da coluna direita -->
+            <ul>
+            	<li>
+            			<input type="button" value="Ver todos os horários" id="btn" />
+            	</li>
+            </ul>
+          </div>
+      </div>
+      <script>
+    		  document.addEventListener("DOMContentLoaded", exibeMenu());
+    	</script>
+    <footer>
+    </footer>
+    </div>
+  </body>
+</html>
